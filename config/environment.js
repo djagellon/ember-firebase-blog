@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'blog',
+    podModulePrefix: 'blog/features', // all pod files are put into 'features' folder
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
